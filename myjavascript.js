@@ -1,4 +1,7 @@
-console.log(suma());
-function suma(a,b){
-		return 7+15;
-	}
+var contador=0;
+$(document).ready(function(){
+	
+	$('#agregar').click(function(){
+		$('#prueba').html(contador++);
+	});
+});
